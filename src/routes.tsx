@@ -1,8 +1,8 @@
 import React from "react";
 import { Router, Switch, Route } from "react-router-dom";
 import history from "./config/history";
-import Home from "./views/home";
-import Admin from "./views/admin";
+import Home from "./views/home/home";
+import Admin from "./views/admin/admin";
 
 const Routers: React.FC = () => {
   return (
